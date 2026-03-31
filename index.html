@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride the Lightning</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Власні стилі -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+<p id="dateTime" class="text-center mt-3 fw-bold"></p>
+        <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#home">Ride the Lightning</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu" aria-expanded="false" aria-label="Перемкнути навігацію">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <ul class="navbar-nav ms-auto" id="mainNav">
+    <li class="nav-item">
+        <a class="nav-link active" href="#home">Головна</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#tracks">Треки</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#about">Про альбом</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#contacts">Контакти</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#feedback">Відгук</a>
+    </li>
+</ul>
+        </nav>
+    </header>
+
+    <!-- Carousel -->
+    <section id="home">
+        <div id="albumCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <img src="https://images.unsplash.com/photo-1501612780327-45045538702b?auto=format&fit=crop&w=1200&q=80"
+                         class="d-block w-100 carousel-img"
+                         alt="Атмосферне концертне фото">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1200&q=80"
+                         class="d-block w-100 carousel-img"
+                         alt="Музична атмосфера">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#albumCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Попередній</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#albumCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Наступний</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Hero -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="main-title">Metallica - Ride the Lightning</h1>
+            <p class="lead-text">
+                Легендарний альбом, що поєднує енергію, драматизм і справжню атмосферу heavy metal.
+            </p>
+
+            <a href="https://open.spotify.com/album/05DePtm7oQMdL3Uzw2Jmsc"
+               target="_blank"
+               class="btn spotify-btn mt-3">
+                <i class="fa-brands fa-spotify"></i> Слухати на Spotify
+            </a>
+        </div>
+    </section>
+
+    <!-- Про альбом -->
+    <section id="about" class="section-block">
+        <div class="container">
+            <h2 class="section-title">Про альбом</h2>
+            <div class="row align-items-center g-4">
+                <div class="col-md-6">
+                    <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/f/fc/Ride_the_Lightning.jpg/330px-Ride_the_Lightning.jpg"
+                         alt="Ride the Lightning"
+                         class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <strong>Ride the Lightning</strong> - другий студійний альбом гурту Metallica,
+                        який став важливим етапом у розвитку heavy metal. Його стиль поєднує
+                        агресивне звучання, емоційні тексти та впізнавану естетику блискавки.
+                    </p>
+                    <p>
+                        Дизайн цієї сторінки передає атмосферу альбому через темну кольорову палітру,
+                        холодні відтінки синього та яскраві електричні акценти.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Треки -->
+    <section id="tracks" class="section-block alt-bg">
+        <div class="container">
+            <h2 class="section-title text-center">Популярні треки</h2>
+
+            <div class="row g-4 mt-2">
+                <div class="col-md-4">
+                    <div class="track-card h-100">
+                        <h4>Fade to Black</h4>
+                        <p>Одна з найвідоміших композицій альбому з емоційним та драматичним звучанням.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="track-card h-100">
+                        <h4>For Whom the Bell Tolls</h4>
+                        <p>Потужний трек із впізнаваним рифом та атмосферою напруги й сили.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="track-card h-100">
+                        <h4>Ride the Lightning</h4>
+                        <p>Титульна композиція, яка чудово передає енергію та ідею всього альбому.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion -->
+    <section class="section-block">
+        <div class="container">
+            <h2 class="section-title text-center">Цікаві факти</h2>
+
+            <div class="accordion" id="albumAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#factOne">
+                            Чому цей альбом важливий?
+                        </button>
+                    </h2>
+                    <div id="factOne" class="accordion-collapse collapse show" data-bs-parent="#albumAccordion">
+                        <div class="accordion-body">
+                            Альбом вважається одним із ключових релізів Metallica та класикою жанру heavy metal.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#factTwo">
+                            Яка головна візуальна ідея?
+                        </button>
+                    </h2>
+                    <div id="factTwo" class="accordion-collapse collapse" data-bs-parent="#albumAccordion">
+                        <div class="accordion-body">
+                            Основна візуальна ідея - блискавка, енергія, холодне світло та темна драматична атмосфера.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#factThree">
+                            Які кольори використано?
+                        </button>
+                    </h2>
+                    <div id="factThree" class="accordion-collapse collapse" data-bs-parent="#albumAccordion">
+                        <div class="accordion-body">
+                            Чорний, темно-синій, білий та електрично-блакитний - для передачі стилю альбому.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакти -->
+    <section id="contacts" class="section-block alt-bg">
+        <div class="container">
+            <h2 class="section-title">Контакти</h2>
+            <p><i class="fa-solid fa-envelope"></i> Email: metallica-fanpage@email.com</p>
+            <p><i class="fa-solid fa-phone"></i> Телефон: +380 99 999 99 99</p>
+            <p><i class="fa-solid fa-location-dot"></i> Адреса: м. Одеса, Україна</p>
+        </div>
+    </section>
+
+    <!-- Відгук -->
+    <section id="feedback" class="section-block">
+        <div class="container">
+            <h2 class="section-title">Залишити відгук</h2>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <form id="feedbackForm">
+                        <input type="text" id="name" class="form-control mb-3" placeholder="Ваше ім'я" required>
+                        <textarea id="message" class="form-control mb-3" rows="4" placeholder="Ваш відгук" required></textarea>
+                        <button type="submit" class="btn submit-btn">Надіслати</button>
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="feedback-box">
+                        <h4>Ваші відгуки</h4>
+                        <div id="feedbackList">
+                            <p class="empty-text">Поки що відгуків немає.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-block">
+        <div class="container text-center">
+            <p>© 2026 Ride the Lightning Fan Page</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Власний JS -->
+    <script src="assets/js/index.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({ duration: 1000 });
+    const scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 600,
+        speedAsDuration: true
+    });
+});
+</script>
+</body>
+</html>

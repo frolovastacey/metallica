@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d1b2a;
+    color: #ffffff;
+}
+
+.custom-navbar {
+    background: #000000;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #00a8ff !important;
+}
+
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(55%);
+}
+
+.hero-section {
+    padding: 60px 20px;
+    background: linear-gradient(180deg, #0d1b2a 0%, #132238 100%);
+}
+
+.main-title {
+    color: #00a8ff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.lead-text {
+    max-width: 700px;
+    margin: 20px auto 0;
+    font-size: 1.1rem;
+}
+
+.spotify-btn {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+}
+
+.spotify-btn:hover {
+    background-color: #18a449;
+    color: white;
+}
+
+.section-block {
+    padding: 60px 20px;
+}
+
+.alt-bg {
+    background-color: #132238;
+}
+
+.section-title {
+    color: #00a8ff;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.track-card {
+    background: #1b263b;
+    border: 1px solid #2f4f6f;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.track-card h4 {
+    color: #00a8ff;
+    margin-bottom: 15px;
+}
+
+.accordion-item {
+    background: #1b263b;
+    border: 1px solid #2f4f6f;
+    color: white;
+}
+
+.accordion-button {
+    background: #1b263b;
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #00a8ff;
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    background: #132238;
+    color: white;
+}
+
+.feedback-box {
+    background: #1b263b;
+    padding: 20px;
+    border-radius: 12px;
+    min-height: 220px;
+    border: 1px solid #2f4f6f;
+}
+
+.submit-btn {
+    background-color: #00a8ff;
+    color: white;
+    border: none;
+}
+
+.submit-btn:hover {
+    background-color: #0089d1;
+    color: white;
+}
+
+.feedback-item {
+    background: #24344f;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.feedback-item strong {
+    color: #00a8ff;
+}
+
+.empty-text {
+    color: #c7d2e0;
+}
+
+.footer-block {
+    background: #000000;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-block p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 250px;
+    }
+
+    .main-title {
+        font-size: 1.8rem;
+    }
+
+    .lead-text {
+        font-size: 1rem;
+    }
+}
+.navbar .nav-link {
+    transition: 0.3s;
+}
+
+.navbar .nav-link.active {
+    color: #00a8ff !important;
+    font-weight: bold;
+    border-bottom: 2px solid #00a8ff;
+}
